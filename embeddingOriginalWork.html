@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yuri's page</title>
+    </head>
+    <body>
+       <h1>This is Yuri's page</h1>
+       <p>This is for info 101's embedding assginment, level 3.</p>
+       <button onclick="enableAutoplay()" type="button">Enable autoplay</button>
+       <button onclick="disableAutoplay()" type="button">Disable autoplay</button>
+       <button onclick="checkAutoplay()" type="button">Check autoplay status</button><br> 
+       <video id="myVideo" width="320" height="176" controls="controls">
+           <source src="videoplayback.mp4" type="video/mp4">
+        </video>
+        <script>
+        var vid = document.getElementById("myVideo");
+        function enableAutoplay() { 
+            vid.autoplay = true;
+            vid.load();
+        }
+        function disableAutoplay() { 
+            vid.autoplay = false;
+            vid.load();
+        } 
+        function checkAutoplay() { 
+            alert(vid.autoplay);
+        } 
+        </script> 
+        <p>SNL clip <a href="https://www.youtube.com/watch?v=rTb3GR6yrQI" target="_blank">Message from Jeff Bezos - SNL</a>.</p>
+        
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/ELXbZsYHhpQ?start=180" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <iframe width="250" height="750" class="rssdog" src="http://www.rssdog.com/index.php?url=http%3A%2F%2Fitunes.apple.com%2Fus%2Frss%2Ftopalbums%2Flimit%3D10%2F**genre%3D1007**%2Fxml&mode=html&showonly=&maxitems=0&showdescs=1&desctrim=0&descmax=0&tabwidth=100%25&linktarget=_blank&textsize=inherit&bordercol=%23d4d0c8&headbgcol=%23999999&headtxtcol=%23ffffff&titlebgcol=%23f1eded&titletxtcol=%23000000&itembgcol=%23ffffff&itemtxtcol=%23000000&ctl=0"></iframe>
+       <object width="50%" height="400px" data="sad_frog.jpg"></object>
+       <audio controls>
+        <source src="Relaxing Piano Music - Sad Song myfreemp3.vip .mp3" type="audio/mpeg">
+        </audio>
+    </body>
+</html>
