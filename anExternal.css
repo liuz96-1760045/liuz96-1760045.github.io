@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(244, 244, 244);
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+/* Begin Newbie */
+/* paragraph style */
+.pStyleOne{
+  font-family: 'Impact';
+  color: rgb(56, 61, 66);
+  font-size: 25px;
+}
+.pStyleTwo{
+  font-family: 'Times New Roman';
+  color: rgb(73, 73, 130);
+  font-size: 35px;
+}
+
+/* all image resize 
+img{
+  max-width: 50px;
+  max-height: 50px;
+}
+*/
+
+/* isolated image resize */
+.boxResize{
+  height: 50px;
+  width: 50px;
+}
+
+/* unique css command: navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+/* End Newbie */
+
+/* Begin Apprentice */
+.pdotted {
+  border-style: dotted;
+}
+.boxMargin {
+  height:200px;
+  margin: 20px;
+}
+.container {
+  position: relative;
+  font-family: 'Impact';
+  text-align: center;
+  color: black;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* End Apprentice */
+
+/* Begin Master */
+.floated {
+  float:left;
+  margin-right: 10px;
+}
+.roundcorner {
+  border-radius: 50px;
+  padding: 20px;
+}
