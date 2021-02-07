@@ -2,12 +2,93 @@
 <html>
 <head>
   <link rel="stylesheet" href = "anExternal.css">
+  <style>
+  body {
+  background-color: rgb(244, 244, 244);
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+/* Begin Newbie */
+/* paragraph style */
+.pStyleOne{
+  font-family: 'Impact';
+  color: rgb(56, 61, 66);
+  font-size: 25px;
+}
+.pStyleTwo{
+  font-family: 'Times New Roman';
+  color: rgb(73, 73, 130);
+  font-size: 35px;
+}
+
+/* all image resize 
+img{
+  max-width: 50px;
+  max-height: 50px;
+}
+*/
+
+/* isolated image resize */
+.boxResize{
+  height: 50px;
+  width: 50px;
+}
+
+/* unique css command: navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+/* End Newbie */
+
+/* Begin Apprentice */
+.pdotted {
+  border-style: dotted;
+}
+.boxMargin {
+  height:200px;
+  margin: 20px;
+}
+.container {
+  position: relative;
+  font-family: 'Impact';
+  text-align: center;
+  color: black;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* End Apprentice */
+  </style>
 </head>
 <body>
 <ul>
   <li><a href="someCss.html">Home</a></li>
   <li><a href="http://www.google.com">Google Portal</a></li>
-  <li><a href="http://www.youtube.html">Youtube Portal</a></li>
+  <li><a href="http://www.youtube.com">Youtube Portal</a></li>
 </ul>
 <h1>Master page</h1>
 <p class="pStyleOne">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -20,34 +101,38 @@
 <img class="boxMargin" src="https://www.washingtonian.com/wp-content/uploads/2020/03/sandie-clarke-C8uGiOanMY4-unsplash-2048x1365.jpg" alt="picture of a cat3">
 <img class="boxMargin" src="https://www.washingtonian.com/wp-content/uploads/2020/03/sandie-clarke-C8uGiOanMY4-unsplash-2048x1365.jpg" alt="picture of a cat3">
 <img class="boxMargin" src="https://www.washingtonian.com/wp-content/uploads/2020/03/sandie-clarke-C8uGiOanMY4-unsplash-2048x1365.jpg" alt="picture of a cat3">
-<p class="pdotted">Here is a sentence of the paragraph. 
-Here is a sentence of the paragraph. 
-Here is a sentence of the paragraph. 
-Here is a sentence of the paragraph. 
-Here is a sentence of the paragraph. 
-Here is a sentence of the paragraph. 
-Here is a sentence of the paragraph. 
-Here is a sentence of the paragraph. 
-Here is a sentence of the paragraph. 
-Here is a sentence of the paragraph. 
+<p class="pdotted">Here is a sentence of the paragraph in dotted border. 
+Here is a sentence of the paragraph in dotted border. 
+Here is a sentence of the paragraph in dotted border. 
+Here is a sentence of the paragraph in dotted border. 
+Here is a sentence of the paragraph in dotted border. 
+Here is a sentence of the paragraph in dotted border. 
+Here is a sentence of the paragraph in dotted border. 
+Here is a sentence of the paragraph in dotted border. 
+Here is a sentence of the paragraph in dotted border. 
+Here is a sentence of the paragraph in dotted border. 
+Here is a sentence of the paragraph in dotted border. 
+Here is a sentence of the paragraph in dotted border. 
+Here is a sentence of the paragraph in dotted border. 
+Here is a sentence of the paragraph in dotted border. 
+Here is a sentence of the paragraph in dotted border. 
+Here is a sentence of the paragraph in dotted border. 
+
 </p>
 <div class="container">
   <img class="boxMargin" 
-  src="cat3.webp" 
+  src="https://www.washingtonian.com/wp-content/uploads/2020/03/sandie-clarke-C8uGiOanMY4-unsplash-2048x1365.jpg" 
   alt="picture of a cat3">
   <div class="centered">Some centered text</div>
 </div>
 <img class="floated" src="https://www.washingtonian.com/wp-content/uploads/2020/03/sandie-clarke-C8uGiOanMY4-unsplash-2048x1365.jpg" alt="picture of a cat3" width="300">
-<p >Here is a sentence of the paragraph. 
-Here is a sentence of the paragraph. 
-Here is a sentence of the paragraph. 
-Here is a sentence of the paragraph. 
-Here is a sentence of the paragraph. 
-Here is a sentence of the paragraph. 
-Here is a sentence of the paragraph. 
-Here is a sentence of the paragraph. 
-Here is a sentence of the paragraph. 
-Here is a sentence of the paragraph. 
+<p class="pStyleTwo">A picture is floating on the leftside. 
+A picture is floating on the leftside. 
+A picture is floating on the leftside. 
+A picture is floating on the leftside. 
+A picture is floating on the leftside. 
+A picture is floating on the leftside. 
+A picture is floating on the leftside. 
 </p>
 <img class="roundcorner" src="https://www.washingtonian.com/wp-content/uploads/2020/03/sandie-clarke-C8uGiOanMY4-unsplash-2048x1365.jpg" alt="picture of a cat3" width="300">
 </body>
